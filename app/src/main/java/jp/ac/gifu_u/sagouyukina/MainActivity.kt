@@ -71,12 +71,12 @@ fun DefaultScreen(modifier: Modifier = Modifier) {
             )
         }
 
-        Spacer(modifier = Modifier.height(24.dp)) // 余白
+        Spacer(modifier = Modifier.height(24.dp))
         // Button 相当
         Button(onClick = {
-            activity?.finish()  // ボタン押下時の動作（アプリ終了）
+            activity?.finish()
         }) {
-            Text("終了") // ボタンラベル
+            Text("終了")
         }
     }
 }
